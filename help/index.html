@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trang Quản Lý</title>
+        <style>
+            /* Phần tử chung */
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: white;
+            }
+
+            a {
+                text-decoration: none;
+                color: #333;
+            }
+
+            /* Logo */
+            .logo img {
+                width: 100%;
+                height: 300px;
+                object-fit: contain;
+            }
+
+            /* Menu */
+            nav {
+                background-color: #333;
+                color: #fff;
+            }
+
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+            }
+
+            nav ul li {
+                padding: 10px;
+            }
+
+            nav ul li a {
+                color: #fff;
+                padding: 10px 15px;
+                display: block;
+            }
+
+            nav ul li:hover {
+                background-color: #555;
+            }
+
+            /* Menu con */
+            nav ul li ul {
+                display: none; /* ẩn menu con mặc định */
+            }
+
+            nav ul li:hover ul {
+                display: block; /* hiển thị menu con khi di chuột vào */
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="logo">
+            <img src="logo.jpg" alt="Logo Chính">
+        </div>
+
+        <!-- Nội dung trang web -->
+        <nav>
+            <ul>
+                <li><a href="#">Giao diện chính</a></li>
+                <li><a href="#">Quản lý nhân viên</a></li>
+                <li><a href="#">Quản lý người học</a></li>
+                <li><a href="#">Quản lý chuyên đề</a></li>
+                <li><a href="#">Quản lý khóa học</a></li>
+                <li><a href="#">Quản lý học viên</a></li>
+                <li>
+                    Tổng hợp thống kê:
+                    <ul>
+                        <li><a href="#">Bảng điểm</a></li>
+                        <li><a href="#">Doanh thu</a></li>
+                        <li><a href="#">Người học</a></li>
+                        <li><a href="#">Khóa học</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Đăng nhập</a></li>
+                <li><a href="#">Đăng xuất</a></li>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Hướng dẫn</a></li>
+            </ul>
+        </nav>
+
+    </body>
+</html>
